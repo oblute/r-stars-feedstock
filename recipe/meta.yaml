@@ -1,4 +1,4 @@
-{% set version = '0.3-1' %}
+{% set version = "0.4-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stars_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stars/stars_{{ version }}.tar.gz
-  sha256: 9b7c9c8a404a533335ce08130b39c6521df179424bf1fe68e1db32473cd99bad
+  sha256: 8240fa0ed087ea076b6153ace2138c77f671bb101fd23b953a012f8f674d7ef1
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
