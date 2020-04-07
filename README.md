@@ -1,9 +1,9 @@
 About r-stars
 =============
 
-Home: https://github.com/r-spatial/stars/
+Home: https://r-spatial.github.io/stars/, https://github.com/r-spatial/stars/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
